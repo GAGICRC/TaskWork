@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Tarefeiros</string>
+    <string name="email_field">Email</string>
+    <string name="password_field">Password</string>
+    <string name="login_button">Entrar</string>
+    <string name="logout_button">Sair</string>
+    <string name="register"><u>Não tem uma conta? Registe-se agora!</u></string>
+
+    <string name="hint_email">Email</string>
+    <string name="hint_pass">Password</string>
+    <string name="hint_repeat_pass">Repita a password</string>
+
+    <string name="button_confirm_sign_up">Registar</string>
+
+    <string name="profile_name">Nome</string>
+    <string name="profile_email">Email</string>
+
+    <string name="profile_country">País</string>
+    <string name="profile_city">Cidade</string>
+    <string name="profile_phone">Número de telefone</string>
+    <string name="dialog_title_task">Editar tarefa</string>
+    <string name="list_item_titulo">Tarefa</string>
+
+    <string name="titulo">Título</string>
+    <string name="descricao">Descrição da tarefa</string>
+    <string name="city">Cidade</string>
+    <string name="country">País</string>
+    <string name="payment">(Opcional) Pagamento</string>
+
+    <string name="save">Guardar</string>
+    <string name="edit_profile">Editar perfil</string>
+    <string name="apagar">Apagar</string>
+
+    <string name="km">Km</string>
+    <string name="search_diameter">000</string>
+    <string name="search_diameter_tv">Raio de Procura</string>
+
+    <string name="connect_internet">Por favor ligue-se à interntet</string>
+    <string name="wrong_name_pass">Email ou password errados</string>
+
+    <string name="toast_edit">Editar perfil autorizado</string>
+
+    <string name="toast_edit_title">Por favor escreva um título</string>
+    <string name="toast_edit_description">Por favor escreva uma descrição para a tarefa</string>
+    <string name="toast_edit_country">Por favor escreva o nome do país</string>
+    <string name="toast_edit_city">Por favor escreva o nome da cidade</string>
+    <string name="toast_edit_success">Perfil editado com sucesso</string>
+    <string name="type_currency">€</string>
+</resources>
