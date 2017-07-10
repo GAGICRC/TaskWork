@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "824955521961",
+    "firebase_url": "https://tarefeiros-50b1a.firebaseio.com",
+    "project_id": "tarefeiros-50b1a",
+    "storage_bucket": "tarefeiros-50b1a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:824955521961:android:edfdb0e557924b38",
+        "android_client_info": {
+          "package_name": "pt.se_ulusofona.tarefeiros"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "824955521961-48jng10780t08iqpm2qiskg1qqaa6oqo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCvaHWD0WIS102iPlvijMpSi-srDQQGo8M"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
