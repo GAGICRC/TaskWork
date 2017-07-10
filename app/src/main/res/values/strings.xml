@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">Taskwork</string>
+    <string name="email_field">Email</string>
+    <string name="password_field">Password</string>
+    <string name="login_button">Login</string>
+    <string name="logout_button">Logout</string>
+    <string name="register"><u>Don´t have an account yet? Register now!</u></string>
+    <string name="about"><u>About</u></string>
+    <string name="hint_email">Email</string>
+    <string name="hint_pass">Password</string>
+    <string name="hint_repeat_pass">Repeat Password</string>
+    <string name="forgot_pass_info">Write down your email to reset your password:</string>
+    <string name="button_confirm_sign_up">Sign up</string>
+    
+    <string name="profile_name">Name</string>
+    <string name="profile_email">Email</string>
+    <string name="profile_birthday">MM/DD/YY</string>
+    <string name="profile_country">Country</string>
+    <string name="profile_city">City</string>
+    <string name="profile_phone">Phone Number</string>
+    <string name="dialog_title_task">Edit Task</string>
+    <string name="list_item_titulo">Task</string>
+
+    <string name="titulo">Title</string>
+    <string name="descricao">Task Description</string>
+    <string name="city">City</string>
+    <string name="country">Country</string>
+    <string name="payment">(Optional) Payment</string>
+
+    <string name="save">Save</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="apagar">Delete</string>
+    
+    <string name="km">Km</string>
+    <string name="search_diameter">000</string>
+    <string name="search_diameter_tv">Searching Diameter</string>
+
+    <string name="connect_internet">Please connect to the Internet</string>
+    <string name="wrong_name_pass">Wrong name or password</string>
+    
+    <string name="toast_edit">Profile editing enabled</string>
+    
+    <string name="toast_edit_title">Please write down a title</string>
+    <string name="toast_edit_description">Please write down a description</string>
+    <string name="toast_edit_country">Please write down country name</string>
+    <string name="toast_edit_city">Please write down city name</string>
+    <string name="toast_edit_success">Profile edited successfully</string>
+    <string name="type_currency">€</string>
+    <string name="abc_search_hint">Search</string>
+
+</resources>
