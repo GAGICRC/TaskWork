@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/fundo_tarefeiros">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:id="@+id/imagem_local_edit"
+            android:layout_width="98dp"
+            android:layout_height="97dp"
+            android:background="@android:drawable/dialog_holo_light_frame"
+            tools:src="@mipmap/ic_launcher" />
+        <EditText
+            android:id="@+id/breve_descricao_edit"
+            android:layout_width="245dp"
+            android:layout_height="55dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="8dp"
+            android:textStyle="bold"
+            android:background="@android:drawable/dialog_holo_light_frame"
+            android:hint="@string/titulo">
+        </EditText>
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/descricao_completa_edit"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@android:drawable/dialog_holo_light_frame"
+        android:gravity="top"
+        android:textStyle="bold"
+        android:hint="@string/descricao">
+    </EditText>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/etCity"
+            android:layout_width="170dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:textStyle="bold"
+            android:background="@android:drawable/dialog_holo_light_frame"
+            android:hint="@string/city">
+
+        </EditText>
+
+        <EditText
+            android:id="@+id/etCountry"
+            android:layout_width="170dp"
+            android:layout_height="60dp"
+
+            android:textStyle="bold"
+            android:background="@android:drawable/dialog_holo_light_frame"
+            android:hint="@string/country">
+
+        </EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+
+        <EditText
+            android:id="@+id/pagammento_edit"
+            android:layout_width="125dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:background="@android:drawable/dialog_holo_light_frame"
+            android:gravity="center"
+            android:textAlignment="gravity"
+            android:textStyle="bold"
+            tools:text="@string/payment">
+        </EditText>
+
+        <TextView
+            android:layout_width="30dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/type_currency"
+            android:textAlignment="gravity" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/guardar_tarefa_edit"
+            android:layout_width="125dp"
+            android:layout_height="50dp"
+            android:textStyle="bold"
+
+            android:text="@string/save"
+            android:background="@android:drawable/dialog_holo_light_frame" />
+
+        <Button
+            android:id="@+id/eliminar_tarefa"
+            android:layout_width="125dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="40dp"
+            android:textStyle="bold"
+            android:background="@android:drawable/dialog_holo_light_frame"
+            android:text="@string/apagar" />
+    </LinearLayout>
+
+
+</LinearLayout>

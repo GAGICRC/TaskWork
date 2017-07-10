@@ -1,0 +1,55 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal"
+    android:background="@android:drawable/dialog_holo_light_frame"
+    android:layout_weight="1">
+    <ImageView
+        android:id="@+id/ivTaskPhoto"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="5dp"
+        tools:src="@mipmap/ic_launcher"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvTask"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="5dp"
+            android:textSize="20sp"
+            tools:hint="@string/list_item_titulo" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/tvCountry"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:paddingTop="5dp"
+                android:textSize="20sp"
+                tools:hint="Portugal" />
+            <TextView
+                android:id="@+id/virgula"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" , "/>
+            <TextView
+                android:id="@+id/tvCity"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:paddingTop="5dp"
+                android:textSize="20sp"
+                tools:hint="Lisboa" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

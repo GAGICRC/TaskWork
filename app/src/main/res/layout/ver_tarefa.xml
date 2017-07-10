@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/fundo_tarefeiros">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="12dp"
+            android:layout_height="match_parent" />
+        <LinearLayout
+            android:layout_width="75dp"
+            android:layout_height="95dp"
+            android:background="@android:color/transparent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="8dp" />
+
+            <ImageView
+                android:id="@+id/ivTaskPhoto"
+                android:layout_width="75dp"
+                android:layout_height="95dp"
+                tools:src="@mipmap/ic_launcher" />
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+
+            <TextView
+                android:id="@+id/tvTaskTitle"
+                android:layout_width="250dp"
+                android:layout_height="50dp"
+                android:background="@android:drawable/dialog_holo_light_frame"
+                android:hint="@string/profile_name"
+                android:textStyle="bold">
+            </TextView>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="20dp">
+                <TextView
+                    android:id="@+id/tvCity"
+                    android:layout_width="120dp"
+                    android:layout_height="50dp"
+                    android:background="@android:drawable/dialog_holo_light_frame"
+                    android:hint="@string/city"
+                    android:textStyle="bold">
+                </TextView>
+
+                <TextView
+                    android:id="@+id/tvCountry"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@android:drawable/dialog_holo_light_frame"
+                    android:hint="@string/country"
+                    android:textStyle="bold">
+                    </TextView>
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+    <TextView
+        android:id="@+id/tvDescription"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@android:drawable/dialog_holo_light_frame"
+        android:gravity="top"
+        android:hint="@string/descricao"
+        android:textStyle="bold">
+    </TextView>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp">
+
+        <TextView
+            android:id="@+id/tvPayment"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+
+            android:background="@android:drawable/dialog_holo_light_frame"
+            android:gravity="center"
+            android:textAlignment="gravity"
+            android:textStyle="bold"
+            tools:text="@string/payment">
+        </TextView>
+
+        <TextView
+            android:layout_width="30dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/type_currency"
+            android:textAlignment="gravity" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="120dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:background="@android:drawable/dialog_holo_light_frame"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="5dp"
+            android:layout_height="match_parent" />
+
+        <ImageView
+            android:id="@+id/ivUserPhoto"
+            android:layout_width="75dp"
+            android:layout_height="95dp"
+            android:layout_gravity="center"
+            tools:src="@mipmap/ic_launcher" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:weightSum="1">
+
+            <TextView
+                android:id="@+id/tvUserName"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:gravity="center"
+                android:hint="@string/profile_name"
+                android:textAlignment="gravity"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/tvEmail"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:gravity="center"
+                android:hint="@string/profile_email"
+                android:textAlignment="gravity"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/tvPhone"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:gravity="center"
+                android:hint="@string/profile_phone"
+                android:textAlignment="gravity"
+                android:textStyle="bold">
+
+            </TextView>
+        </LinearLayout>
+
+
+    </LinearLayout>
+</LinearLayout>
