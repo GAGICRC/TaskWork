@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <?xml version="1.0" encoding="utf-8"?>
+    <resources>
+        <string name="app_name">Taskwork</string>
+        <string name="email_field">Email</string>
+        <string name="password_field">Password</string>
+        <string name="login_button">Entrer</string>
+        <string name="logout_button">Laisser</string>
+        <string name="register"><u>Pas un compte? Inscrivez-vous maintenant!</u></string>
+
+        <string name="hint_email">Email</string>
+        <string name="hint_pass">Password</string>
+        <string name="hint_repeat_pass">Répéter la password</string>
+
+        <string name="button_confirm_sign_up">S´inscrire</string>
+
+        <string name="profile_name">Nom</string>
+        <string name="profile_email">Email</string>
+
+        <string name="profile_country">Pays</string>
+        <string name="profile_city">Ville</string>
+        <string name="profile_phone">Numéro de téléphone</string>
+        <string name="dialog_title_task">Modifier le tâche</string>
+        <string name="list_item_titulo">Tâche</string>
+
+        <string name="titulo">Titre</string>
+        <string name="descricao">Description de la tâche</string>
+        <string name="city">Ville</string>
+        <string name="country">Pays</string>
+        <string name="payment">(En option) Paiement</string>
+
+        <string name="save">Sauver</string>
+        <string name="edit_profile">Modifier le profil</string>
+        <string name="apagar">Effacer</string>
+
+        <string name="km">Km</string>
+        <string name="search_diameter">000</string>
+        <string name="search_diameter_tv">Rayon de recherche</string>
+
+        <string name="connect_internet">S´il vous plaît se connecter à Internet</string>
+        <string name="wrong_name_pass">Email ou password incorrect</string>
+
+        <string name="toast_edit">Modifier le profil autorisé</string>
+
+        <string name="toast_edit_title">S´il vous plaît écrire un titre</string>
+        <string name="toast_edit_description">S´il vous plaît une description de la tâche</string>
+        <string name="toast_edit_country">S´il vous plaît entrez le nom du pays</string>
+        <string name="toast_edit_city">S´il vous plaît entrer le nom de la ville</string>
+        <string name="toast_edit_success">Profil avec succès édité</string>
+        <string name="type_currency">€</string>
+    </resources>
+</resources>
